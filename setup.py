@@ -10,16 +10,16 @@ def parse_requirements(filename):
 
 
 if __name__ == '__main__':
-   # with open('README.md', 'r') as fh:
-    #    LONG_DESCRIPTION = fh.read()
+    with open('README.md', 'r') as fh:
+        LONG_DESCRIPTION = fh.read()
 
     setup(
         name='aries_testprotocol',
         version='0.1.0',
         author='Vineeth Rajesh <vineethrajesh14@gmail.com>, ',
         description='Aries Cloud Agent - Python Plugin Example',
-     #   long_description=LONG_DESCRIPTION,
-      #  long_description_content_type='text/markdown',
+        long_description=LONG_DESCRIPTION,
+        long_description_content_type='text/markdown',
         # url='https://github.com/sovrin-foundation/aca-plugin-toolbox',
         license='Apache 2.0',
         packages=find_packages(),
