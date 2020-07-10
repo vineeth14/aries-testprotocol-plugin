@@ -16,4 +16,4 @@ http://localhost:8021/api/doc
 
 http://localhost:8051/api/doc
 
-Simply create a peer to peer connection between the two agents using the swagger interface.Then invoke the protocolexample protocol using the swagger interface to send a protocolexample message from one agent to the other.
+Simply create a peer to peer connection between the two agents using the swagger interface.Then invoke the test message protocol using the swagger interface to send a test message from one agent to the other.
